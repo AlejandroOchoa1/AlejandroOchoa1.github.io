@@ -1,0 +1,109 @@
+
+
+body{
+    background: hsl(0, 0%, 95%);
+  
+}
+.cuadros_carros{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 145px;
+    margin-left: 150px;
+}
+.cuadros_carros img{
+    margin-bottom: 15px;
+}
+
+.cuadros_carros h1{
+    font-family: 'Big Shoulders Text', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.cuadros_carros p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+}
+
+.carros_sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    color: #fff;
+    height: auto;
+    width: 225px;
+}
+
+.carros_suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+    color: #fff;
+    height: auto;
+    width: 225px;
+}
+
+
+.carros_luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    color: #fff;
+    height: auto;
+    width: 225px;
+}
+
+.cuadros_carros a{ 
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color:#fff;
+    padding: 10px 25px;  
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;   
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2{
+    color:hsl(184, 100%, 22%) ;
+}
+
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn1:hover{
+    border: 1px solid #fff;
+    background-color:hsl(31, 77%, 52%) ;
+    color: #fff;
+
+}
+.btn2:hover{
+    border: 1px solid #fff;
+    background-color:hsl(184, 100%, 22%) ;
+    color: #fff;
+
+}
+.btn3:hover{
+    border: 1px solid #fff;
+    background-color:hsl(179, 100%, 13%);
+    color: #fff;
+
+}
+
+
+
+@media (max-width: 600px) {
+    .cuadros_carros {
+      flex-direction: column;
+      width: 100%;
+      text-align: justify;
+      margin:0;
+      padding: 0;
+    }
+  }
